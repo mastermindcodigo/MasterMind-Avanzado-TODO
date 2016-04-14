@@ -1,0 +1,319 @@
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************  MASTER MIND  *********************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+1) Jugar partida
+2) Jugar partida de prueba
+3) Establecer nivel de dificultad
+4) Listar historial de partidas
+6) Establecer idioma
+0) Salir
+
+¿Siguiente operación? 
+
+0) Español
+1) Gallego
+2) Inglés
+
+Elige idioma: 
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+6) Set language
+0) Quit
+
+Next command? 
+History file can't be read (partidas.txt)
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+6) Set language
+0) Quit
+
+Next command? 
+
+Current level: 100
+Select new level [1..100]: 
+Selected level: 10
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+6) Set language
+0) Quit
+
+Next command? 
+
+Type a number with 4 different digits + ENTER: 
+You have not typed 4 digits
+
+
+Type a number with 4 different digits + ENTER: 
+You have not typed 4 digits
+
+
+Type a number with 4 different digits + ENTER: 
+The guess digits must be different
+
+
+Type a number with 4 different digits + ENTER: 
+The guess can only contain digits
+
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 5678  <____>
+
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 9012  <||__>
+
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 9034  <**__>
+
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 1324  <**||>
+
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 1234  <****>
+
+
+You have discovered the secret code (1234) in 5 attempts
+You have got 7.78 points
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+5) Save played game
+6) Set language
+0) Quit
+
+Next command? 
+History file can't be read (partidas.txt)
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+5) Save played game
+6) Set language
+0) Quit
+
+Next command? 
+
+There is an unsaved game, discard it? (y/n) 
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+5) Save played game
+6) Set language
+0) Quit
+
+Next command? 
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+6) Set language
+0) Quit
+
+Next command? 
+------------
+1234
+5678  <____>
+9012  <||__>
+9034  <**__>
+1324  <**||>
+1234  <****>
+5
+7.78
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+6) Set language
+0) Quit
+
+Next command? 
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 4231  <**||>
+
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 1234  <****>
+
+
+You have discovered the secret code (1234) in 2 attempts
+You have got 10.00 points
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+5) Save played game
+6) Set language
+0) Quit
+
+Next command? 
+
+There is an unsaved game, are you sure you want to quit? (y/n) 
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+5) Save played game
+6) Set language
+0) Quit
+
+Next command? 
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+6) Set language
+0) Quit
+
+Next command? 
+------------
+1234
+5678  <____>
+9012  <||__>
+9034  <**__>
+1324  <**||>
+1234  <****>
+5
+7.78
+------------
+1234
+4231  <**||>
+1234  <****>
+2
+10.00
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+6) Set language
+0) Quit
+
+Next command? 
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 1234  <****>
+
+
+You have discovered the secret code (1234) in 1 attempt
+You have got 10.00 points
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+5) Save played game
+6) Set language
+0) Quit
+
+Next command? 
+
+There is an unsaved game, discard it? (y/n) 
+Type a number with 4 different digits + ENTER: 
+Your guess: 5678  <____>
+
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 1290  <**__>
+
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 1234  <****>
+
+
+You have discovered the secret code (1234) in 3 attempts
+You have got 10.00 points
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+5) Save played game
+6) Set language
+0) Quit
+
+Next command? 
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+6) Set language
+0) Quit
+
+Next command? 
+------------
+1234
+5678  <____>
+9012  <||__>
+9034  <**__>
+1324  <**||>
+1234  <****>
+5
+7.78
+------------
+1234
+4231  <**||>
+1234  <****>
+2
+10.00
+------------
+1234
+5678  <____>
+1290  <**__>
+1234  <****>
+3
+10.00
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+6) Set language
+0) Quit
+
+Next command? 
+
+Type a number with 4 different digits + ENTER: 
+Your guess: 1234  <****>
+
+
+You have discovered the secret code (1234) in 1 attempt
+You have got 10.00 points
+
+1) Play game
+2) Play test game
+3) Set skill level
+4) List game history
+5) Save played game
+6) Set language
+0) Quit
+
+Next command? 
+
+There is an unsaved game, are you sure you want to quit? (y/n) 

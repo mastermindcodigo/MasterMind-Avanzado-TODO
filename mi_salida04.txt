@@ -1,0 +1,133 @@
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************  MASTER MIND  *********************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+ 
+ 1) Jugar partida 
+ 2) Jugar partida de prueba 
+ 3) Establecer nivel de dificultad 
+ 4) Listar historial de partidas 
+ 6) Establecer idioma 
+ 0) Salir
+ 
+¿Siguiente operación?
+  
+ 0) Español 
+ 1) Gallego 
+ 2) Inglés
+
+  Elige idioma:
+ 1) Play game 
+ 2) Play test game 
+ 3) Set skill level 
+ 4) List game history 
+ 6) Set language 
+ 0) Quit
+
+Next command?
+
+History file can't be read(partidas.txt)
+
+ 1) Play game 
+ 2) Play test game 
+ 3) Set skill level 
+ 4) List game history 
+ 6) Set language 
+ 0) Quit
+
+Next command?
+
+ Current level: 100
+
+Select new level [1..100]:
+Selected level: 10
+
+ 1) Play game 
+ 2) Play test game 
+ 3) Set skill level 
+ 4) List game history 
+ 6) Set language 
+ 0) Quit
+
+Next command?
+
+Type a number with 4 different digits + ENTER: 
+You have not typed 4 digits
+Type a number with 4 different digits + ENTER: 
+You have not typed 4 digits
+Type a number with 4 different digits + ENTER: 
+The guess digits must be different
+Type a number with 4 different digits + ENTER: 
+The guess can only contain digits
+Type a number with 4 different digits + ENTER: 
+Your guess:5678  <____>
+
+Type a number with 4 different digits + ENTER: 
+Your guess:9012  <||__>
+
+Type a number with 4 different digits + ENTER: 
+Your guess:9034  <**__>
+
+Type a number with 4 different digits + ENTER: 
+Your guess:1324  <**||>
+
+Type a number with 4 different digits + ENTER: 
+Your guess:1234  <****>
+
+
+You have discovered the secret code (1234) in 5 attempts
+You have got 7.78 points
+
+ 1) Play game 
+ 2) Play test game 
+ 3) Set skill level 
+ 4) List game history 
+ 5) Save played game 
+ 6) Set language 
+ 0) Quit
+ 
+Next command?
+
+History file can't be read(partidas.txt)
+
+ 1) Play game 
+ 2) Play test game 
+ 3) Set skill level 
+ 4) List game history 
+ 5) Save played game 
+ 6) Set language 
+ 0) Quit
+ 
+Next command?
+
+Type a number with 4 different digits + ENTER: 
+You have not typed 4 digits
+Type a number with 4 different digits + ENTER: 
+You have not typed 4 digits
+Type a number with 4 different digits + ENTER: 
+You have not typed 4 digits
+Type a number with 4 different digits + ENTER: 
+You have not typed 4 digits
+Type a number with 4 different digits + ENTER: 
+Your guess:4231  <**||>
+
+Type a number with 4 different digits + ENTER: 
+Your guess:1234  <****>
+
+
+You have discovered the secret code (1234) in 2 attempts
+You have got 10.00 points
+
+ 1) Play game 
+ 2) Play test game 
+ 3) Set skill level 
+ 4) List game history 
+ 5) Save played game 
+ 6) Set language 
+ 0) Quit
+ 
+Next command?

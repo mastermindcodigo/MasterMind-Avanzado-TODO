@@ -1,0 +1,3 @@
+
+Uso: ./principal [ --help | codigo_prueba ]
+

@@ -1,0 +1,100 @@
+********************************************************************************
+********************************************************************************
+********************************************************************************
+********************************  MASTER MIND  *********************************
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+1) Jugar partida
+2) Jugar partida de prueba
+3) Establecer nivel de dificultad
+4) Listar historial de partidas
+6) Establecer idioma
+0) Salir
+
+¿Siguiente operación? 
+No puedo leer el fichero de historial (partidas.txt)
+
+1) Jugar partida
+2) Jugar partida de prueba
+3) Establecer nivel de dificultad
+4) Listar historial de partidas
+6) Establecer idioma
+0) Salir
+
+¿Siguiente operación? 
+
+Nivel actual: 100
+Elige nuevo nivel [1..100]: 
+Nivel seleccionado: 5
+
+1) Jugar partida
+2) Jugar partida de prueba
+3) Establecer nivel de dificultad
+4) Listar historial de partidas
+6) Establecer idioma
+0) Salir
+
+¿Siguiente operación? 
+
+Escriba un número de 4 dígitos diferentes + ENTER: 
+Su apuesta es: 5678  <____>
+
+
+Escriba un número de 4 dígitos diferentes + ENTER: 
+Su apuesta es: 9012  <||__>
+
+
+Escriba un número de 4 dígitos diferentes + ENTER: 
+Su apuesta es: 9034  <**__>
+
+
+Escriba un número de 4 dígitos diferentes + ENTER: 
+Su apuesta es: 4321  <||||>
+
+
+Escriba un número de 4 dígitos diferentes + ENTER: 
+Su apuesta es: 2314  <*|||>
+
+
+NO ha descubierto el código secreto (1234) tras 5 intentos
+Ha obtenido 0.00 puntos
+
+1) Jugar partida
+2) Jugar partida de prueba
+3) Establecer nivel de dificultad
+4) Listar historial de partidas
+5) Guardar partida jugada
+6) Establecer idioma
+0) Salir
+
+¿Siguiente operación? 
+
+1) Jugar partida
+2) Jugar partida de prueba
+3) Establecer nivel de dificultad
+4) Listar historial de partidas
+6) Establecer idioma
+0) Salir
+
+¿Siguiente operación? 
+------------
+1234
+5678  <____>
+9012  <||__>
+9034  <**__>
+4321  <||||>
+2314  <*|||>
+5
+0.00
+
+1) Jugar partida
+2) Jugar partida de prueba
+3) Establecer nivel de dificultad
+4) Listar historial de partidas
+6) Establecer idioma
+0) Salir
+
+¿Siguiente operación? 
+

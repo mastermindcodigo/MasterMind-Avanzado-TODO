@@ -1,0 +1,77 @@
+Estos fichero contienen una batería de pruebas para evaluar el correcto
+funcionamiento de un programa que implemente la versión avanzada del proyecto
+Master Mind con todas las mejoras.
+
+Se asume la existencia de un Makefile con reglas para generar dicho programa
+
+Si el programa generado por dicho programa se llamase, por ejemplo,
+"mastermindAvanzado", la forma de ejecutar la batería de pruebas sería:
+
+
+./protocolo.csh mastermindAvanzado
+
+
+Este protocolo va llamando al programa sucesivas veces, de la forma:
+  
+./mastermindAvanzado < protoXX.txt > salidaXX.txt
+  
+es decir, redirigiendo a su entrada estándar, en vez del teclado, el contenido
+de un fichero (protoXX.txt) que contiene entradas para el programa, y
+redirigiendo su salida, en vez de a la pantalla, a un fichero (salidaXX.txt),
+que, después, será evaluado.
+
+Además, también se evalúa, si es necesario, el contenido de los sucesivos
+ficheros de historial ("partidas.txt") generados por el programa.
+
+
+La salida correcta por pantalla debería ser como la siguiente (cambiando,
+naturalmente, los nombres de los módulos por los que se hayan usado):
+
+------------------------------------------------------------------------------
+
+Protocolo para evaluar un programa que contiene
+la versión avanzada del proyecto Master Mind con todas las mejoras
+
+Limpiamos el escenario
+rm -f mastermindAvanzado *.o *.bak partidas.txt
+
+Construimos la aplicación
+gcc -Wall -c gestion_juego.c
+gcc -Wall -c pantalla.c
+gcc -Wall pantalla.o gestion_juego.o mastermindAvanzado.c -o mastermindAvanzado
+
+Ejecutamos la batería de pruebas
+
+Comparamos los ficheros de historial generados por el programa
+que hemos evaluado con los que deberían haberse generado,
+y mostramos las diferencias (si las hay)
+
+partidas01.txt
+partidas02.txt
+partidas03.txt
+partidas04.txt
+partidas10.txt
+
+Comparamos los ficheros de salida generados por el programa
+que hemos evaluado con los que deberían haberse generado,
+y mostramos las diferencias (si las hay)
+
+salida01.txt
+salida02.txt
+salida03.txt
+salida04.txt
+salida05.txt
+salida06a.txt
+salida06b.txt
+salida07.txt
+salida08.txt
+salida09.txt
+salida10.txt
+
+------------------------------------------------------------------------------
+
+En caso de que el comportamiento del programa no sea conforme a las
+especificaciones, las secciones de "Comparamos los ficheros..." mostrarán las
+diferencias entre lo que produce el programa y lo que debería producir.
+
+
