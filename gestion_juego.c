@@ -134,6 +134,7 @@ void guardar_partida(Apuestas apuestas[100], Inicial *inicial, Fin *fin, int t){
   fprintf(txt, "%i\n", fin->intentos);
   fprintf(txt, "%.2f", fin->puntuacion);
 
+	fprintf(txt, "\n");
   fclose(txt);
 
 }

@@ -19,10 +19,10 @@ int main(int argc, char *argv[]){
 
   char opcion[800];
   int error, t, argumento=0;
-  int error2;
+  int error2,error3;
   int dificultad;
   int *lives;
-  int *vez;
+  int *vez; //Variable para salir sin guardar.
   // char accion;
   int *lenguaje;
   lives=malloc(80*sizeof(int));
@@ -46,7 +46,7 @@ int main(int argc, char *argv[]){
    int intentos;
    float puntuacion;
    }*/
-
+//DECLARACION DE LOS STRUCT.
   Inicial inicial_;
   Inicial *inicial=&inicial_;
   Apuestas apuestas[100];
@@ -96,8 +96,30 @@ int main(int argc, char *argv[]){
     switch (opcion[0]) {
 
     case SALIR: { //salir
-
-      break; 
+	if(*vez==1 && *lenguaje!=2) {
+  do{
+	 imprimir(3, lenguaje);
+	scanf(" %s",opcion);
+	error3=0;
+	if(strlen(opcion)!=1)error3=1; //Si la longitud de la cadena no es uno, error.
+	if(tolower(opcion[0])!='s' && tolower(opcion[0])!='n')error3=1; //si el primer elemento no es s y no es n, error.
+  }while(error3==1);
+	} else if(*vez==1 && *lenguaje==2) 
+	{
+	  do{
+	imprimir(3, lenguaje);
+	scanf(" %s",opcion);
+	error3=0;
+	if(strlen(opcion)!=1)error3=1; //Si la longitud de la cadena no es uno, error.
+	if(tolower(opcion[0])!='y' && tolower(opcion[0])!='n')error3=1; //si el primer elemento no es s y no es n, error.
+  }while(error3==1);
+}
+	error=0;
+	if(tolower(opcion[0])=='n'){
+	error=1;
+	}
+      
+    break; 
     }
 
     case JUGAR : {
