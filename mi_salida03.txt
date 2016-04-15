@@ -15,7 +15,7 @@
  0) Salir
  
 ¿Siguiente operación?
-  
+ 
  0) Español 
  1) Gallego 
  2) Inglés
@@ -57,12 +57,16 @@ Seguinte operación?
 
 Escriba un número de 4 díxitos diferentes + ENTER: 
 A lonxitude da aposta non é correcta
+
 Escriba un número de 4 díxitos diferentes + ENTER: 
 A lonxitude da aposta non é correcta
+
 Escriba un número de 4 díxitos diferentes + ENTER: 
 Os díxitos da aposta deben ser diferentes
+
 Escriba un número de 4 díxitos diferentes + ENTER: 
 A aposta só debe conter díxitos
+
 Escriba un número de 4 díxitos diferentes + ENTER: 
 A súa aposta é: 5678  <____>
 
@@ -90,7 +94,8 @@ Obtivo 7.78 puntos
  6) Establecer idioma 
  0) Saír
  
-Seguinte operación?:
+Seguinte operación?
+
 Non podo ler o ficheiro de historial (partidas.txt)
  
  1) Xogar partida 
@@ -101,15 +106,45 @@ Non podo ler o ficheiro de historial (partidas.txt)
  6) Establecer idioma 
  0) Saír
  
-Seguinte operación?:
-Escriba un número de 4 díxitos diferentes + ENTER: 
-A lonxitude da aposta non é correcta
-Escriba un número de 4 díxitos diferentes + ENTER: 
-A lonxitude da aposta non é correcta
-Escriba un número de 4 díxitos diferentes + ENTER: 
-A lonxitude da aposta non é correcta
-Escriba un número de 4 díxitos diferentes + ENTER: 
-A lonxitude da aposta non é correcta
+Seguinte operación?
+Hai unha partida sen gardar, descartala? (s/n)  
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 5) Gardar partida xogada 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+------------
+1234
+5678  <____>
+9012  <||__>
+9034  <**__>
+1324  <**||>
+1234  <****>
+5
+7.78
+
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+
 Escriba un número de 4 díxitos diferentes + ENTER: 
 A súa aposta é: 4231  <**||>
 
@@ -128,4 +163,147 @@ Obtivo 10.00 puntos
  6) Establecer idioma 
  0) Saír
  
-Seguinte operación?:
+Seguinte operación?
+
+Hai unha partida sen gardar, está seguro de que desexa saír?(s/n)  
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 5) Gardar partida xogada 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+------------
+1234
+5678  <____>
+9012  <||__>
+9034  <**__>
+1324  <**||>
+1234  <****>
+5
+7.78
+------------
+1234
+4231  <**||>
+1234  <****>
+2
+10.00
+
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+
+Escriba un número de 4 díxitos diferentes + ENTER: 
+A súa aposta é: 1234  <****>
+
+
+Descubriu o código secreto (1234) en 1 intento
+Obtivo 10.00 puntos
+ 
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 5) Gardar partida xogada 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+Hai unha partida sen gardar, descartala? (s/n) 
+Escriba un número de 4 díxitos diferentes + ENTER: 
+A súa aposta é: 5678  <____>
+
+Escriba un número de 4 díxitos diferentes + ENTER: 
+A súa aposta é: 1290  <**__>
+
+Escriba un número de 4 díxitos diferentes + ENTER: 
+A súa aposta é: 1234  <****>
+
+
+Descubriu o código secreto (1234) en 3 intentos
+Obtivo 10.00 puntos
+ 
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 5) Gardar partida xogada 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+------------
+1234
+5678  <____>
+9012  <||__>
+9034  <**__>
+1324  <**||>
+1234  <****>
+5
+7.78
+------------
+1234
+4231  <**||>
+1234  <****>
+2
+10.00
+------------
+1234
+5678  <____>
+1290  <**__>
+1234  <****>
+3
+10.00
+
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+
+Escriba un número de 4 díxitos diferentes + ENTER: 
+A súa aposta é: 1234  <****>
+
+
+Descubriu o código secreto (1234) en 1 intento
+Obtivo 10.00 puntos
+ 
+ 1) Xogar partida 
+ 2) Xogar partida de proba 
+ 3) Establecer nivel de dificultade 
+ 4) Listar historial de partidas 
+ 5) Gardar partida xogada 
+ 6) Establecer idioma 
+ 0) Saír
+ 
+Seguinte operación?
+
+Hai unha partida sen gardar, está seguro de que desexa saír?(s/n) 

@@ -9,16 +9,6 @@
 
 int partida_normal(int oportunidades, char codigo[4], int *idioma, Inicial *inicial, Fin *fin, Apuestas apuestas[100]){
   
-  void escrituratxt(int iteraciones, float puntuacion) { //Oye moi, esto se supone que lo hice para despues de meter en el txt los datos de la partida, guardase el numero de veces que te pidio el numero y la nota que te da el programa. lo llamaría desde void felicitaciones y void derrota, pero me da error al compilar. mira a ver si ves que hago mal pls. Tambien tengo unos warnings en los fprintf, a ver si tu sabes porque son...
-	
-     FILE *txt1;
-    txt1=fopen("partidas.txt","a+"); //ESCRITURA EN FICHERO DE LAS APUESTAS Y ACIERTOS.
-    fprintf(txt1,"%i\n",iteraciones);
-    //fprintf(txt1,"\n");
-    fprintf(txt1,"%.2f\n",puntuacion);
-    //fprintf(txt1,"\n");
-    fclose(txt1);
-  } 
 
   void felicitaciones(int intentos, char codigo[4], int indice1, int *idiomas){
   
@@ -29,8 +19,8 @@ int partida_normal(int oportunidades, char codigo[4], int *idioma, Inicial *inic
     else if(intentos>3 && intentos<12)puntos=10-10*(intentos - 3)/9.;
 
     //printf("\n\nHa descubierto el codigo secreto (");
-    imprimir(9, idioma);
-    fin->puntuacion=puntos;
+    imprimir(9, idioma); 
+    fin->puntuacion=puntos; //Asignamos la puntuacion al struct y tambien los intentos
     fin->intentos=intentos;
 
     for(indice1=0; indice1<4; indice1++){
@@ -65,7 +55,7 @@ int partida_normal(int oportunidades, char codigo[4], int *idioma, Inicial *inic
 
     //printf("\n\nNO ha descubierto el codigo secreto (");
     imprimir(12, idioma);
-    fin->puntuacion=puntos;
+    fin->puntuacion=puntos;//Asignamos la puntuacion al struct y tambien los intentos
     fin->intentos=intentos;
 
     for(indice1=0; indice1<4; indice1++){
@@ -79,7 +69,7 @@ int partida_normal(int oportunidades, char codigo[4], int *idioma, Inicial *inic
       imprimir(15, idioma);
       printf("%.2f", puntos);
       imprimir(16, idioma);
-      escrituratxt(intentos, puntos);
+      //escrituratxt(intentos, puntos);
     }
     else{
       //printf(") tras %i intento\nHa obtenido %.2f puntos\n\n", intentos, puntos);
@@ -102,7 +92,6 @@ int partida_normal(int oportunidades, char codigo[4], int *idioma, Inicial *inic
   int ganar=0;
   int intentos=0;
   int contimpresion=0; //CONTADOR AUX PARA NUMERO DE VALORES DISTINTOS DE _ 
-  FILE *txt;
 
   //GENERAMOS LOS CUATRO NUMEROS ALEATORIOS
   /*do{

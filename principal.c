@@ -93,6 +93,10 @@ int main(int argc, char *argv[]){
 
     error=0;
 
+
+    if(*vez==0 && opcion[0]=='5')opcion[0]=7; //OBLIGAMOS AL ERROR PARA QUE CUANDO NO HAYA UNA PARTIDA JUGADA NO PODAMOS GUARDAR;
+    
+
     switch (opcion[0]) {
 
     case SALIR: { //salir
@@ -123,15 +127,73 @@ int main(int argc, char *argv[]){
     }
 
     case JUGAR : {
+
       //  fprintf(stdout," \nHas seleccionado Jugar partida\n\n");
+      if(*vez==1 && *lenguaje!=2) {
+  do{
+	 imprimir(2, lenguaje);
+	scanf(" %s",opcion);
+	error3=0;
+	if(strlen(opcion)!=1)error3=1; //Si la longitud de la cadena no es uno, error.
+	if(tolower(opcion[0])!='s' && tolower(opcion[0])!='n')error3=1; //si el primer elemento no es s y no es n, error.
+  }while(error3==1);
+	} else if(*vez==1 && *lenguaje==2) 
+	{
+	  do{
+	imprimir(2, lenguaje);
+	scanf(" %s",opcion);
+	error3=0;
+	if(strlen(opcion)!=1)error3=1; //Si la longitud de la cadena no es uno, error.
+	if(tolower(opcion[0])!='y' && tolower(opcion[0])!='n')error3=1; //si el primer elemento no es s y no es n, error.
+  }while(error3==1);
+}
+	error=0;
+	if(tolower(opcion[0])=='n'){
+	error=1;
+	}
+	if(error==1){
+	  error=1;
+	  break;
+	}
+
       dificultad=0;
       error=1;
       *vez=1;
       t=jugar_partida(dificultad, lives, lenguaje, argv[1], argumento, inicial, fin, apuestas); //MODO NORMAL DE JUEGO
       break;
     }
+
     case PROBAR: {
       // fprintf(stdout," \nHas seleccionado Jugar partida de prueba\n\n");
+
+if(*vez==1 && *lenguaje!=2) {
+
+  do{
+	 imprimir(2, lenguaje);
+	scanf(" %s",opcion);
+	error3=0;
+	if(strlen(opcion)!=1)error3=1; //Si la longitud de la cadena no es uno, error.
+	if(tolower(opcion[0])!='s' && tolower(opcion[0])!='n')error3=1; //si el primer elemento no es s y no es n, error.
+  }while(error3==1);
+	} else if(*vez==1 && *lenguaje==2) 
+	{
+	  do{
+	imprimir(2, lenguaje);
+	scanf(" %s",opcion);
+	error3=0;
+	if(strlen(opcion)!=1)error3=1; //Si la longitud de la cadena no es uno, error.
+	if(tolower(opcion[0])!='y' && tolower(opcion[0])!='n')error3=1; //si el primer elemento no es s y no es n, error.
+  }while(error3==1);
+}
+	error=0;
+	if(tolower(opcion[0])=='n'){
+	error=1;
+	}
+	if(error==1){
+	  error=1;
+	  break;
+	}
+    
       dificultad=1;
       *vez=1;
       t=jugar_partida(dificultad, lives, lenguaje, argv[1], argumento, inicial, fin, apuestas);

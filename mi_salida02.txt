@@ -15,7 +15,7 @@
  0) Salir
  
 ¿Siguiente operación?
- 
+
 No puedo leer el fichero de historial (partidas.txt)
  
  1) Jugar partida 
@@ -26,7 +26,7 @@ No puedo leer el fichero de historial (partidas.txt)
  0) Salir
  
 ¿Siguiente operación?
- 
+
 Nivel actual: 100
 
 Elige nuevo nivel [1..100]:
@@ -40,7 +40,7 @@ Nivel seleccionado: 5
  0) Salir
  
 ¿Siguiente operación?
- 
+
 Escriba un número de 4 dígitos diferentes + ENTER: 
 Su apuesta es: 5678  <____>
 
@@ -69,7 +69,7 @@ Ha obtenido 0.00 puntos
  0) Salir
  
 ¿Siguiente operación?
-  
+ 
  1) Jugar partida 
  2) Jugar partida de prueba 
  3) Establecer nivel de dificultad 
@@ -78,8 +78,6 @@ Ha obtenido 0.00 puntos
  0) Salir
  
 ¿Siguiente operación?
- 5
-0.00
 ------------
 1234
 5678  <____>
@@ -88,7 +86,8 @@ Ha obtenido 0.00 puntos
 4321  <||||>
 2314  <*|||>
 5
-0.00 
+0.00
+ 
  1) Jugar partida 
  2) Jugar partida de prueba 
  3) Establecer nivel de dificultad 
@@ -97,4 +96,3 @@ Ha obtenido 0.00 puntos
  0) Salir
  
 ¿Siguiente operación?
- 

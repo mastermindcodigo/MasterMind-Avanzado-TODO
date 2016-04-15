@@ -9,4 +9,5 @@ El programa MASTER MIND permite las siguientes funcionalidades:
 2) Jugar partida de prueba: "descubrir" el código pasado para pruebas
 3) Establecer nivel de dificultad: elegir el máximo número de intentos admitidos
 4) Listar historial de partidas: mostrar las jugadas anteriormente realizadas
+5) Guardar partida jugada: guardar en un fichero de historial la última partida
 6) Establecer idioma: elegir en qué idioma se quiere recibir la información
